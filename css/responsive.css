@@ -1,0 +1,133 @@
+@media (min-width: 1300px) {
+}
+
+@media (max-width: 1600px) {
+}
+
+/* Portrait tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+}
+
+@media  (max-width: 1200px){
+}
+
+@media  (max-width: 1024px){
+}
+
+/* Portrait tablets and small desktops */
+
+@media (max-width: 991px) and (min-width: 768px) {
+
+	.menu-right{
+		display: none;
+	}
+
+	.navbar-toggler {
+		padding: 8px;
+		border-radius: 2px;
+		border: 1px solid #3f3f3f;
+		width: 38px;
+		height: inherit;
+		padding-bottom: 10px;
+		position: absolute;
+		right: 15px;
+		top: -55px;
+	}
+
+	.navbar-icon {
+		background: #3f3f3f;
+		height: 1px;
+		width: 18px;
+		margin: auto;
+		margin: 0 4px;
+		display: block;
+		margin: auto;
+		margin-top: 4px;
+	}
+
+	.header-area .main-menu ul.navbar-nav {
+	    text-align: left;
+	    margin-top: 20px;
+	    margin-bottom: 20px;
+	}
+
+	.header-area .main-menu ul.navbar-nav li {
+	    padding: 15px 20px;
+	}
+
+	.header-area .main-menu ul.navbar-nav li a.nav-link {
+		padding: 0;
+	}
+
+}
+
+@media  (max-width: 991px) {
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 768px) {
+
+	.menu-right {
+		display: none;
+	}
+
+	.navbar-toggler {
+		padding: 8px;
+		border-radius: 2px;
+		border: 1px solid #3f3f3f;
+		width: 38px;
+		height: inherit;
+		padding-bottom: 10px;
+		position: absolute;
+		right: 15px;
+		top: -55px;
+	}
+
+	.navbar-icon {
+		background: #3f3f3f;
+		height: 1px;
+		width: 18px;
+		margin: auto;
+		margin: 0 4px;
+		display: block;
+		margin: auto;
+		margin-top: 4px;
+	}
+
+	#owl-demo .item {
+		height: 100%;
+	}
+
+	.header-area .main-menu ul.navbar-nav {
+	    text-align: left;
+	    margin-top: 20px;
+	    margin-bottom: 20px;
+	}
+
+	.header-area .main-menu ul.navbar-nav li {
+	    padding: 15px 20px;
+	}
+
+	.header-area .main-menu ul.navbar-nav li a.nav-link {
+		padding: 0;
+	}
+
+	.content-area .col-sm-3,
+	.content-area .col-sm-3.last {
+		-ms-flex: 0 0 100%;
+		flex: 0 0 100%;
+		max-width: 100%;
+		margin-bottom: 30px;
+	}
+
+}
+
+/* Landscape phones and smaller */
+@media (max-width: 480px) {
+}
+
+@media (max-width: 375px) {
+}
+
+@media (max-width: 320px) {
+}
