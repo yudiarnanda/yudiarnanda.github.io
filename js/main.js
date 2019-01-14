@@ -2,6 +2,17 @@
 "use strict";
 
 /*-------------------------------------------
+  Add Active Menu
+--------------------------------------------- */
+
+// $('.main-menu ul.navbar-nav li a').click(function(){
+//     $('.main-menu ul.navbar-nav li a').removeClass("active");
+//     $(this).addClass("active");
+// })
+
+//$('.main-menu ul.navbar-nav li a[href^="/' + location.pathname.split("/")[1] + '"]').addClass('active');
+
+/*-------------------------------------------
   jQuery MeanMenu
 --------------------------------------------- */
 // menu toggle
@@ -28,23 +39,19 @@ Slideshow
 --------------------------------------------- */
   $("#owl-demo").owlCarousel({
  
-	navigation : true,
-	navigationText: [
-	   "<i class='fa fa-arrow-left' aria-hidden='true'></i>",
-	   "<i class='fa fa-arrow-right' aria-hidden='true'></i>"
-	],
-	slideSpeed : 300,
-	paginationSpeed : 400,
-	singleItem:true,
-	dots: true,
-	nav: true
- 
-      // "singleItem:true" is a shortcut for:
-      // items : 1, 
-      // itemsDesktop : false,
-      // itemsDesktopSmall : false,
-      // itemsTablet: false,
-      // itemsMobile : false
+  navigation : true,
+  navigationText: [
+     "<i class='fa fa-arrow-left' aria-hidden='true'></i>",
+     "<i class='fa fa-arrow-right' aria-hidden='true'></i>"
+  ],
+  slideSpeed : 300,
+  paginationSpeed : 400,
+  singleItem:true,
+  dots: true,
+  nav: true,
+  autoPlay : 3000,
+  animateIn: 'fadeIn',
+  animateOut: 'fadeOut'
  
   });
 
