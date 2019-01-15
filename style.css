@@ -341,22 +341,9 @@ ul {
   padding: 0 0 60px 0;
 }
 
-.content-area .col-sm-3 {
-  -ms-flex: 0 0 23%;
-  flex: 0 0 23%;
-  max-width: 23%;
-}
-
-.content-area .col-sm-3.last {
-  -ms-flex: 0 0 31%;
-  flex: 0 0 31%;
-  max-width: 31%;
-}
-
+.content-area .col-sm-2,
 .content-area .col-sm-4 {
-  -ms-flex: 0 0 30%;
-  flex: 0 0 30%;
-  max-width: 30%;
+  margin-bottom: 30px;
 }
 
 .content-area .entry-content {
